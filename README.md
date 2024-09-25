@@ -56,14 +56,14 @@ INFO -  The following files exist in the docs directory, but may be unused:
 ```yml
 plugins:
   - unused_files:
-    dir: images
-    file_types:
-      - png
-      - jpg
-      - svg
-    excluded_files:
-      - favicon.png
-      - foo-*.jpg
-    strict: true
-    enabled: !ENV [CI, false]
+      dir: images
+      file_types:
+        - png
+        - jpg
+        - svg
+      excluded_files:
+        - favicon.png
+        - foo-*.jpg
+      strict: true
+      enabled: !ENV [CI, false]
 ```
